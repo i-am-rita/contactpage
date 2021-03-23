@@ -1,0 +1,106 @@
+.contact {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f5f5f5;
+}
+
+.contact p {
+  font-size: 500;
+}
+
+.contact-form {
+  position: relative;
+  width: calc(60% - 20px);
+  padding: 60px 40px 20px;
+  border-radius: 5px;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+.contact-form .row {
+  width: 100%;
+  display: flex;
+}
+
+.contact-form .input50 {
+  width: 50%;
+  margin: 20px;
+}
+
+.contact-form .input100 {
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+  position: relative;
+  border: 2px solid #8b8888;
+  border-radius: 4px;
+  color: #111111;
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.contact-form .row textarea {
+  height: 150px;
+}
+
+/* Send Btn */
+
+.contact-form .row input[type='submit'] {
+  background-color: transparent;
+  width: 35%;
+  color: #111111;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 4px;
+  /* transform: scale(0.8); */
+  cursor: pointer;
+}
+
+.contact-form .row input[type='submit']:hover {
+  background: #bbb;
+  color: #111111;
+}
+/* Vertical Line */
+.vl {
+  border-left: 1px solid #8b8888;
+  top: 0;
+  bottom: 0;
+  height: 500px;
+}
+
+/* Contact Info: Social Media */
+.contact-info {
+  width: 350px;
+  /* color: #f2f2f2; */
+  padding: 60px 40px 20px;
+  border-radius: 5px;
+}
+
+.contact-info ul li a {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 40px 20px;
+  text-decoration: none;
+  color: #111;
+}
+
+.contact-info ul li {
+  list-style: none;
+}
